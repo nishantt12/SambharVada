@@ -31,6 +31,15 @@ Sambhar Vada
 ```
 
 Download
+
+Add repository:
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/nishantt12/SambharVada/'
+    }
+}
+
 --------
 ```xml
 <dependency>
@@ -42,6 +51,6 @@ Download
 ```
 or Gradle:
 ```groovy
-compile 'com.nishant.sambharvada:sambharvada:1.0.1'
+compile 'com.nishant.sambharvada:sambharvada:1.0.2'
 ```
 
