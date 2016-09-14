@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/nishantt12/SambharVada'
     gitUrl = 'https://github.com/nishantt12/SambharVada.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.2'
 
     developerId = 'nishantt12'
     developerName = 'Nishant Tanwar'

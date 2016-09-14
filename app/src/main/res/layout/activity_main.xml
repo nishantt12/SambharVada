@@ -1,16 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.nishant.sambhar.vada.MainActivity">
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_16">
+
+
+            <TextView
+
+                style="@style/Text"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:text="@string/overall_rating" />
+
+
+            <include
+                android:id="@+id/overAllRating"
+                layout="@layout/layout_rating" />
+
+            <TextView
+                style="@style/Text"
+
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_20"
+                android:text="@string/review_title" />
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner_layout_no_background"
+                android:hint="@string/review_title"
+                android:imeOptions="actionNext"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10"
+                android:singleLine="true">
+
+            </EditText>
+
+            <TextView
+                style="@style/Text"
+
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/comments" />
+
+            <EditText
+                android:id="@+id/editComments"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/rounded_corner_layout_no_background"
+                android:hint="@string/comments"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10">
+
+            </EditText>
+
+            <TextView
+                style="@style/Text"
+
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_20"
+                android:text="@string/full_name" />
+
+            <EditText
+                android:id="@+id/editFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner_layout_no_background"
+                android:hint="@string/full_name"
+                android:imeOptions="actionNext"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10"
+                android:singleLine="true">
+
+            </EditText>
+
+            <TextView
+                style="@style/Text"
+
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner_layout_no_background"
+                android:hint="@string/email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10"
+                android:singleLine="true">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/onFeedBack"
+                style="@style/RedRoundButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_20"
+                android:padding="@dimen/margin_10"
+                android:text="@string/feedback"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

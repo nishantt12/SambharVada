@@ -1,3 +1,64 @@
 <resources>
     <string name="app_name">Sambhar Vada</string>
+
+    <string name="rs">\u20B9</string>
+    <string name="enter">Enter</string>
+    <string name="read">Read</string>
+    <string name="news">News</string>
+    <string name="book_now">Book Now</string>
+    <string name="call">Call</string>
+    <string name="email">Email</string>
+    <string name="map">Map</string>
+    <string name="reviews">Reviews</string>
+    <string name="menu">Menus</string>
+    <string name="web">Web</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="dietary">Check your dietary requirements</string>
+    <string name="facebook">Facebook</string>
+    <string name="insta">Instagram</string>
+    <string name="special">Special Requests</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="special_1">Inform me about special offers via Email</string>
+    <string name="special_2">Inform me about special offers via SMS</string>
+    <string name="twitter">Twitter</string>
+    <string name="share">Share</string>
+    <string name="share_news">Share this news</string>
+    <string name="news_detail">You can now order your dishes on-line.</string>
+    <string name="booking_1">Your booking is successfully submitted, we will email you shortly to confirm your booking, subject to availability.</string>
+    <string name="google">Google+</string>
+    <string name="home_1">Keep up to date with our latest news, events, and promotions.</string>
+    <string name="your_next_booking">Your Next Booking</string>
+    <string name="view_all_bookings">View All\nBookings</string>
+
+    <string name="ambience">Ambience</string>
+    <string name="value">Value</string>
+    <string name="purpose_visit">Purpose of Visit</string>
+    <string name="visited_on">Visited on</string>
+    <string name="regal_recommend">Would you recommend Regal Spice to other dinners?</string>
+    <string name="review_1">Please enter your name and email address. We will send you
+        an email notification to confirm that you are a genuine contributor.</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="feedback">Submit your Feedback</string>
+    <string name="review_2">Submit a review for Regal spice</string>
+    <string name="overall_rating">Rating</string>
+    <string name="review_title">Review Title</string>
+    <string name="comments">Your Comments</string>
+    <string name="food">Food</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="confirm_details">Confirm details</string>
+    <string name="comment">Comment</string>
+    <string name="service">Service</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="guests">Guests</string>
+    <string name="check_availability">Check Availability</string>
+    <string name="availability_1"></string>
+
+    <string-array name="purpose">
+        <item>Dinner</item>
+        <item>Lunch</item>
+        <item>BreakFast</item>
+    </string-array>
 </resources>
